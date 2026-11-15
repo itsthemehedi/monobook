@@ -1,0 +1,420 @@
+{
+  "_note": "Build Pack Section 4. Only status SOURCED is built. PENDING entries never render. Inline links: [text](/path/). {{CHECKLIST}} renders the seven live items.",
+  "groups": [
+    {
+      "id": "fit",
+      "title": "Fit"
+    },
+    {
+      "id": "scope",
+      "title": "What you get"
+    },
+    {
+      "id": "time",
+      "title": "Time"
+    },
+    {
+      "id": "price",
+      "title": "Price and payment"
+    },
+    {
+      "id": "trust",
+      "title": "Trust"
+    },
+    {
+      "id": "rights",
+      "title": "Rights and revisions"
+    },
+    {
+      "id": "data",
+      "title": "Data"
+    }
+  ],
+  "items": [
+    {
+      "id": "fit-who",
+      "group": "fit",
+      "status": "SOURCED",
+      "question": "Who is MonoBook for?",
+      "answer": [
+        "Established UK trade and service firms whose logo looks different on the van, the quote, the website and the workwear. We are starting with [NICHE_FIRMS]."
+      ]
+    },
+    {
+      "id": "fit-not",
+      "group": "fit",
+      "status": "SOURCED",
+      "question": "Who is this not for?",
+      "answer": [
+        "It is not for firms that want a website, advertising or social media posts. This package is five parts: logo, colour, typeface, image style and guideline. Anything beyond them is quoted separately. It is also not for firms that cannot approve work in writing as we go. If you are not sure, tell us what you need and we will say honestly whether we can help."
+      ],
+      "_source": "Website Update v2, 15 Nov 2026 8.2"
+    },
+    {
+      "id": "fit-have-logo",
+      "group": "fit",
+      "status": "SOURCED",
+      "question": "We already have a logo. Do we need all five parts?",
+      "answer": [
+        "Tell us in your brief what you already have. We will say plainly which parts you need. If we are not the right fit, we will tell you that too."
+      ]
+    },
+    {
+      "id": "fit-designer",
+      "group": "fit",
+      "status": "SOURCED",
+      "question": "We already have a designer.",
+      "answer": [
+        "Good. The guideline is written so any designer, printer or sign maker can work from it without calling you."
+      ]
+    },
+    {
+      "id": "fit-logo-only",
+      "group": "fit",
+      "status": "SOURCED",
+      "question": "Is this just a logo?",
+      "answer": [
+        "No. The logo is one of five parts. The other four stop your logo looking different from one place to the next: colour, typeface, image style and one guideline. [What you get](/what-you-get/)."
+      ]
+    },
+    {
+      "id": "fit-trade",
+      "group": "fit",
+      "status": "PENDING",
+      "question": "Have you worked in my trade?",
+      "answer": [
+        "Our work includes Gärtnerabo, a garden care subscription service, and Mayfair Lumber, a lumber wholesaler in Alberta. If we have not worked in your exact trade, we will tell you before you start. [See the work](/work/)."
+      ],
+      "_source": "case studies on this site; option B spirit, adjusted for home services. Approved by Mehedi 11 Nov 2026.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "scope-five",
+      "group": "scope",
+      "status": "SOURCED",
+      "question": "What exactly do I get?",
+      "answer": [
+        "Five parts: logo, colour, typeface, image style and one guideline document. [What you get](/what-you-get/)."
+      ]
+    },
+    {
+      "id": "scope-logo",
+      "group": "scope",
+      "status": "SOURCED",
+      "question": "What is in the logo part?",
+      "answer": [
+        "A primary and a secondary mark, with rules for size and clear space. It is set up to be used the same way from business cards to vans."
+      ]
+    },
+    {
+      "id": "scope-colour",
+      "group": "scope",
+      "status": "SOURCED",
+      "question": "What is in the colour part?",
+      "answer": [
+        "One palette with exact values for print, screen, vehicle wraps and signage, so your suppliers stop guessing."
+      ]
+    },
+    {
+      "id": "scope-type",
+      "group": "scope",
+      "status": "SOURCED",
+      "question": "What is in the typeface part?",
+      "answer": [
+        "A licensed type system for headings, body text and documents, so your quotes and invoices match."
+      ]
+    },
+    {
+      "id": "scope-image",
+      "group": "scope",
+      "status": "SOURCED",
+      "question": "What is image style?",
+      "answer": [
+        "A standard for your job photos, built from your own work, so your site, quotes and social posts look like one company."
+      ]
+    },
+    {
+      "id": "scope-guideline",
+      "group": "scope",
+      "status": "SOURCED",
+      "question": "What is the guideline?",
+      "answer": [
+        "One document that your printer, sign maker, web developer and staff can follow without calling you."
+      ]
+    },
+    {
+      "id": "scope-formats",
+      "group": "scope",
+      "status": "PENDING",
+      "question": "What files do I receive?",
+      "answer": [
+        "Print and screen files for every version of your mark: vector files (AI, EPS, SVG and PDF) for your printer and sign maker, and PNG and JPG for screens, documents and social posts. Each comes in full colour, one colour and reversed. The guideline comes as a PDF."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Industry norm for identity handover (contract templates list AI, EPS, SVG, PDF, PNG).",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "scope-extras",
+      "group": "scope",
+      "status": "PENDING",
+      "question": "Do you also make business cards, vehicle artwork or a website?",
+      "answer": [
+        "Not as part of the five parts. If you need business cards, van artwork or a website, tell us in your brief. We will say plainly whether we can do it, and it is quoted separately."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Business Summary 3: work outside the five parts is a separate conversation.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "time-sprint",
+      "group": "time",
+      "status": "SOURCED",
+      "question": "How can it be done in one day?",
+      "answer": [
+        "In the Sprint the whole studio works on your project for one working day. Before the day, you send your current logo, photos of your vans, signs and workwear, and a short brief. In the morning we confirm the brief by call or email. At the end of the day you receive all five parts. [How it works](/process/)."
+      ]
+    },
+    {
+      "id": "time-paces",
+      "group": "time",
+      "status": "SOURCED",
+      "question": "What is the difference between 1, 7 and 14 days?",
+      "answer": [
+        "The work is the same. Only the pace changes. Standard takes seven days, with two review points scheduled around you. Extended takes fourteen days at a slower pace."
+      ]
+    },
+    {
+      "id": "time-need",
+      "group": "time",
+      "status": "SOURCED",
+      "question": "What do you need from me?",
+      "answer": [
+        "Seven things, in one email:",
+        "{{CHECKLIST}}",
+        "Send what you have. Tell us what is missing."
+      ]
+    },
+    {
+      "id": "time-delay",
+      "group": "time",
+      "status": "SOURCED",
+      "question": "What slows a project down?",
+      "answer": [
+        "Waiting for feedback. The proposal states the approval steps and the dates, so you can see where time can be lost."
+      ]
+    },
+    {
+      "id": "time-start",
+      "group": "time",
+      "status": "PENDING",
+      "question": "How soon can you start?",
+      "answer": [
+        "Your proposal gives you a real start date, based on the work already booked. We will not give you a hopeful date we cannot keep."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Capacity number unknown; no scarcity per Sales OS.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "time-clock",
+      "group": "time",
+      "status": "PENDING",
+      "question": "When does the clock start?",
+      "answer": [
+        "When your payment is confirmed. Then a 30 minute call, and the work starts at the pace you chose."
+      ],
+      "_source": "Business Summary 5: work starts only after payment is confirmed, then welcome and 30 minute session. Approved by Mehedi 11 Nov 2026.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "price-how",
+      "group": "price",
+      "status": "SOURCED",
+      "question": "How much does it cost?",
+      "answer": [
+        "It depends on how fast you need it, so the first question is your date. Email your brief with the date you need it by. We quote against your real situation: your current logo on your vans, signs and documents, and your timeline. The work is the same in every option."
+      ]
+    },
+    {
+      "id": "price-why",
+      "group": "price",
+      "status": "SOURCED",
+      "question": "Why is there no price on this site?",
+      "answer": [
+        "Because the price changes with the date you need it by. A number on a page would be wrong for most people."
+      ]
+    },
+    {
+      "id": "price-upfront",
+      "group": "price",
+      "status": "PENDING",
+      "question": "Do I pay upfront?",
+      "answer": [
+        "Work starts once payment is confirmed. Your proposal sets out what is paid and when."
+      ],
+      "_source": "Business Summary 5: payment confirmed before work starts. Approved by Mehedi 11 Nov 2026.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "price-methods",
+      "group": "price",
+      "status": "PENDING",
+      "question": "How do I pay?",
+      "answer": [
+        "By bank transfer, against an invoice. Your proposal states the amount, the currency and the due date. Work starts once payment is confirmed."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Payment confirmed before start: Business Summary 5. Method to be confirmed in practice.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "price-terms",
+      "group": "price",
+      "status": "PENDING",
+      "question": "Is there a contract?",
+      "answer": [
+        "Yes. You agree to written terms before you pay. Nothing starts before that."
+      ],
+      "_source": "Business Summary 5: terms, then payment. Approved by Mehedi 11 Nov 2026.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "trust-where",
+      "group": "trust",
+      "status": "SOURCED",
+      "question": "Where are you based?",
+      "answer": [
+        "Bangladesh. The studio is in Satkhira. Everything runs on email and video calls. Our anchor project, a lumber company in Alberta, was done the same way."
+      ]
+    },
+    {
+      "id": "trust-response",
+      "group": "trust",
+      "status": "SOURCED",
+      "question": "Will you answer when I need an answer?",
+      "answer": [
+        "You hear back from Mehedi within two hours during UK working hours."
+      ]
+    },
+    {
+      "id": "trust-who",
+      "group": "trust",
+      "status": "SOURCED",
+      "question": "Who will work on my project?",
+      "answer": [
+        "Mehedi Hasan, the founder, is your contact from first email to final file. A studio team does the production."
+      ]
+    },
+    {
+      "id": "trust-proof",
+      "group": "trust",
+      "status": "SOURCED",
+      "question": "Who have you worked with?",
+      "answer": [
+        "Our anchor project is Mayfair Lumber Sales Ltd, a wholesale lumber company in Alberta, more than four decades old. We rebuilt their mark, colour and type, and Eric Dahl, their Chairman, put his view of the work in writing. We also built a new identity for Gärtnerabo, a garden care subscription service. [See the work](/work/)."
+      ]
+    },
+    {
+      "id": "trust-results",
+      "group": "trust",
+      "status": "SOURCED",
+      "question": "Can you promise results?",
+      "answer": [
+        "We do not promise sales numbers from a logo. What we put in writing is what you receive, the steps and the date."
+      ]
+    },
+    {
+      "id": "trust-ai",
+      "group": "trust",
+      "status": "PENDING",
+      "question": "Do you use AI to design?",
+      "answer": [
+        "Your mark starts as pencil sketches and is drawn and finished by our designers. We may use AI tools for research and admin, but not to generate your final logo, so the work we hand over is original and ours to transfer to you."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). UK ownership of AI output is unclear (Sprintlaw, BIMA); sketch-first process shown in both case studies.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "trust-refund",
+      "group": "trust",
+      "status": "PENDING",
+      "question": "Do you offer a guarantee or refund?",
+      "answer": [
+        "If you cancel before work starts, yes, in full. Once work has started, you pay for the work done up to that point, as set out in your written terms. We do not promise sales results from a logo."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Sales OS 11.7 assurance options; UK guidance prefers explaining what each payment covers over blanket non-refundable clauses.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "rights-owner",
+      "group": "rights",
+      "status": "PENDING",
+      "question": "Who owns the final files?",
+      "answer": [
+        "You do, once the final payment is made. We transfer the copyright to your company in writing, and we keep the right to show the work in our portfolio."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). UK copyright transfer needs a signed written assignment; common practice is on final payment, with a portfolio right.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "rights-revisions",
+      "group": "rights",
+      "status": "PENDING",
+      "question": "How many revisions do I get?",
+      "answer": [
+        "Two rounds of changes are included, whichever pace you choose. If you want more, we agree it in writing before we do it."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Common range is two to three rounds (contract templates).",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "rights-dislike",
+      "group": "rights",
+      "status": "PENDING",
+      "question": "What if I do not like the first direction?",
+      "answer": [
+        "You see the work at each review point. Nothing moves to the next step without your written yes, so a direction that is wrong is caught early, not at the end."
+      ],
+      "_source": "Business Summary 5: a short written yes at every design step. Approved by Mehedi 11 Nov 2026.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "rights-font",
+      "group": "rights",
+      "status": "SOURCED",
+      "question": "What if a typeface needs a commercial licence?",
+      "answer": [
+        "We handle it. We either buy the licence or modify the font."
+      ]
+    },
+    {
+      "id": "data-brief",
+      "group": "data",
+      "status": "PENDING",
+      "question": "What do you do with my brief and my photos?",
+      "answer": [
+        "We use it to reply to you and, if you go ahead, to do the work. We keep it only as long as we need it for that, then delete it. We do not sell it or pass it on."
+      ],
+      "_source": "live Privacy page, verbatim. Approved by Mehedi 11 Nov 2026.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "data-source",
+      "group": "data",
+      "status": "PENDING",
+      "question": "Where did you get my details?",
+      "answer": [
+        "From public sources: your company website, your Google listing, Companies House and LinkedIn. We do not buy lists. We only write to Ltd companies, and only about our work.",
+        "Tell us once with \"no\" or \"stop\" and we will not write again, to you or anyone at your company."
+      ],
+      "_source": "Recommended by Claude from research, approved in principle by Mehedi 11 Nov 2026 ('make it what is recommended'). Cold Email Master 2.2 and 19: lead sources, no bought lists, Ltd only (PECR corporate subscribers), opt-out rule. ICO right to be informed: name the source.",
+      "_v2": "Follow v2 strictly (Mehedi, 15 Nov 2026): back to PENDING. Previous answer kept here for later."
+    },
+    {
+      "id": "data-stop",
+      "group": "data",
+      "status": "SOURCED",
+      "question": "How do I stop hearing from you?",
+      "answer": [
+        "Tell us once, with \"no\" or \"stop\". We stop writing to you and to everyone else at your company."
+      ]
+    }
+  ]
+}

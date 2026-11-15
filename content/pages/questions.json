@@ -1,0 +1,37 @@
+{
+  "path": "/questions/",
+  "title": "Questions: Fit, Scope, Time, Price and Trust | MonoBook",
+  "description": "Straight answers to what UK trade and service firms ask before they send a brief to MonoBook.",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "Questions, answered"
+    },
+    {
+      "type": "starthere",
+      "status": "SOURCED",
+      "_source": "Website Update v2, 15 Nov 2026 8.1",
+      "eyebrow": "Start here",
+      "ids": [
+        "price-how",
+        "fit-who",
+        "trust-proof"
+      ]
+    },
+    {
+      "type": "faqall",
+      "status": "SOURCED"
+    },
+    {
+      "type": "finalcta",
+      "status": "SOURCED",
+      "heading": "Send your brief.",
+      "text": "You hear back within two hours, UK working hours.",
+      "link": {
+        "label": "See how it works",
+        "href": "/process/"
+      }
+    }
+  ]
+}

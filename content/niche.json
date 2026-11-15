@@ -1,0 +1,11 @@
+{
+  "_note": "Niche block. To move to another niche, edit only this file and rebuild. Mehedi decided on 11 Nov 2026: site speaks to UK home service firms broadly, not one trade.",
+  "NICHE_NAME": "home services",
+  "NICHE_FIRMS": "home service firms",
+  "NICHE_TRADES": "roofers, builders, plumbers, electricians, heating engineers, landscapers, cleaners and window fitters",
+  "NICHE_TRADE_LIST": ["Roofers", "Builders", "Plumbers", "Electricians", "Heating engineers", "Landscapers", "Cleaners", "Window fitters"],
+  "VEHICLE": "van",
+  "SURFACES": "van, site board, quote sheet, workwear, website",
+  "LISTING_SITES": "Google profile, Checkatrade",
+  "NEXT_ORDER": "the next van or board"
+}

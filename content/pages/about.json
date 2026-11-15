@@ -1,0 +1,28 @@
+{
+  "path": "/about/",
+  "title": "About: Mehedi Hasan, Founder | MonoBook",
+  "description": "MonoBook, founded in 2022, is a brand identity studio run by Mehedi Hasan from Satkhira, Bangladesh. Your contact from first email to final file.",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "Mehedi Hasan, founder."
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "_source": "Website Update v2, 15 Nov 2026 6.1",
+      "paras": [
+        "MonoBook was founded in 2022 as a design studio. Mehedi Hasan, founder and CEO, started this work in 2016 and is your contact from the first email to the final file.",
+        "Our aim is to deliver ideas and work that hold significance for the people we work with. We work openly, transparently and together with you.",
+        "The studio is in Satkhira, Bangladesh, and works with you by email and video call. You hear back within two hours, UK working hours."
+      ],
+      "social": true,
+      "cta": true,
+      "link": {
+        "label": "See the work",
+        "href": "/work/"
+      }
+    }
+  ]
+}

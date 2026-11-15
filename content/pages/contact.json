@@ -1,0 +1,67 @@
+{
+  "path": "/contact/",
+  "title": "Contact: Email Your Brief | MonoBook",
+  "description": "Email your brief to MonoBook or send it from this page. Replies within two hours during UK working hours.",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "Tell us what your business does and where your name shows up.",
+      "_h1Source": "live site contact heading, verbatim"
+    },
+    {
+      "type": "contact",
+      "status": "SOURCED",
+      "_replySource": "live site contact line, verbatim",
+      "reply": "We reply within two hours, during UK working hours.",
+      "lines": [
+        "Satkhira, Bangladesh"
+      ],
+      "_replyNote": "'Email only.' removed 15 Nov 2026: the site now has a contact form (Mehedi's request)."
+    },
+    {
+      "type": "contactform",
+      "status": "SOURCED",
+      "id": "form",
+      "_source": "Mehedi, 15 Nov 2026: 'website take mail korta parba' (contact form chosen). Copy written to match the site voice; review before launch.",
+      "eyebrow": "Or write it here",
+      "heading": "Send your brief from this page.",
+      "intro": "It goes straight to Mehedi's inbox. Same reply time.",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Your name",
+          "autocomplete": "name",
+          "max": 120
+        },
+        {
+          "name": "email",
+          "label": "Your email",
+          "type": "email",
+          "autocomplete": "email",
+          "max": 200
+        },
+        {
+          "name": "business",
+          "label": "Business name and trade",
+          "autocomplete": "organization",
+          "max": 300,
+          "optional": true
+        },
+        {
+          "name": "message",
+          "label": "Your brief",
+          "type": "textarea",
+          "max": 6000,
+          "hint": "What your business does, where your name shows up, and what is not working. The seven brief items help us reply faster."
+        }
+      ],
+      "button": "Send your brief",
+      "sending": "Sending",
+      "sent": "Thank you. Your brief is with us. We reply within two hours, during UK working hours.",
+      "invalid": "Please add your name, a working email address and a few words about your business.",
+      "error": "That did not send. Please email it to {{EMAIL_LINK}} instead.",
+      "filesNote": "Logo files and photos are easier by email. Send them to {{EMAIL_LINK}}."
+    }
+  ]
+}

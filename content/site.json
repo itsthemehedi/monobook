@@ -1,0 +1,211 @@
+{
+  "_note": "Site-wide settings. Email, mailto subject and body are copied verbatim from the live monobook.co page (11 Nov 2026).",
+  "origin": "https://monobook.co",
+  "name": "MonoBook",
+  "applicationName": "MonoBook Brand Architects",
+  "email": "mehedi@monobook.co",
+  "mailtoSubject": "Brief%20for%20MonoBook",
+  "mailtoBody": "Answer%20what%20you%20can.%20Attach%20your%20logo%20and%20photos.%0A%0A1.%20Your%20current%20logo%20file.%0A%0A%0A2.%20A%20line%20about%20your%20business%20and%20how%20long%20it%20has%20been%20running.%0A%0A%0A3.%20Who%20your%20customers%20are.%0A%0A%0A4.%20Two%20competitors%2C%20with%20their%20websites.%0A%0A%0A5.%20What%20must%20stay%2C%20and%20what%20you%20want%20to%20change.%0A%0A%0A6.%20Where%20the%20new%20identity%20goes%20first%3A%20van%2C%20site%20board%2C%20workwear%2C%20quote%20sheet%20or%20website.%0A%0A%0A7.%20Photos%20of%20your%20van%2C%20signs%20and%20workwear.%0A%0A",
+  "ctaLabel": "Email your brief",
+  "replyLine": "Replies within two hours, UK working hours.",
+  "footerPlace": "Satkhira, Bangladesh",
+  "ogImage": "/og.png",
+  "ogImageAlt": "MonoBook Brand Architects. Your business works. It just does not look like it does.",
+  "nav": [
+    {
+      "label": "What you get",
+      "href": "/what-you-get/"
+    },
+    {
+      "label": "Process",
+      "href": "/process/"
+    },
+    {
+      "label": "Work",
+      "href": "/work/"
+    },
+    {
+      "label": "Questions",
+      "href": "/questions/"
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    }
+  ],
+  "checklistSeven": {
+    "_source": "live site, verbatim",
+    "items": [
+      "Your current logo file.",
+      "A line about your business and how long it has been running.",
+      "Who your customers are.",
+      "Two competitors, with their websites.",
+      "What must stay, and what you want to change.",
+      "Where the new identity goes first: van, site board, workwear, quote sheet or website.",
+      "Photos of your van, signs and workwear."
+    ]
+  },
+  "mayfair": {
+    "_source": "Case study PDF (v2) page 19, verbatim, per Website Update v2 6.3.",
+    "quote": [
+      "Monobook was hired to do a visual rebrand for our 40+ year organization. He was an excellent communicator, showed exceptional passion for the project, and delivered a finished product exactly what we were hoping for.",
+      "I will be using Mehedi for future projects related to visual brand identity and will be recommending to friends. Thank you for your detail-oriented work and pride you take from your work."
+    ],
+    "name": "Mayfair Lumber Sales Ltd, Alberta",
+    "title": {
+      "status": "SOURCED",
+      "value": "Chairman, Mayfair Lumber Sales Ltd",
+      "_source": "Mehedi confirmed 11 Nov 2026; matches case study PDF page 19"
+    },
+    "images": {
+      "status": "SOURCED",
+      "_source": "MonoBook - Selected Work - Nov 2026.pdf, pages 7 to 17. Given by Mehedi on 11 Nov 2026.",
+      "before": "/work/mayfair/before",
+      "after": "/work/mayfair/after",
+      "beforeCaption": "Before: the original hand-made mark",
+      "afterCaption": "After: the refined mark",
+      "beforeAlt": "The original Mayfair Lumber Sales Ltd mark in blue, drawn by hand, with uneven corners and spacing.",
+      "afterAlt": "The refined Mayfair Lumber mark in blue, with matching corners and even spacing."
+    },
+    "approved": {
+      "src": "/work/mayfair/approved",
+      "caption": "The approved mark.",
+      "alt": "The approved Mayfair Lumber mark in white on Mayfair's Prime Blue."
+    },
+    "sketch": {
+      "src": "/work/mayfair/sketch",
+      "caption": "Paper first: the original mark, marked up by hand.",
+      "alt": "A pencil sketch of the Mayfair mark with hand-written notes on curves, alignment and spacing."
+    },
+    "changes": {
+      "_source": "case study PDF page 9. Item 3 reworded without '90 degrees'; Mehedi approved 11 Nov 2026.",
+      "heading": "Fixed, not reinvented.",
+      "items": [
+        "Corners and curves now match each other across the whole mark.",
+        "Every line of text is centred, with even space around it.",
+        "Angles are now square, so the mark stays simple to read and to reproduce.",
+        "A gap between two letters was corrected where they read as one shape."
+      ]
+    },
+    "applications": {
+      "_source": "case study PDF pages 14 to 17; captions follow the PDF",
+      "heading": "One mark. Every surface.",
+      "items": [
+        {
+          "src": "/work/mayfair/card",
+          "caption": "Business card, application mockup",
+          "alt": "Mayfair business cards: blue front with the white mark, white back with contact details."
+        },
+        {
+          "src": "/work/mayfair/stationery",
+          "caption": "Letterhead and stationery, application mockup",
+          "alt": "Mayfair letterhead, envelope and business cards in blue and white."
+        },
+        {
+          "src": "/work/mayfair/stamp",
+          "caption": "Wood stamp, application mockup",
+          "alt": "The Mayfair Lumber mark stamped into the side of a wooden block."
+        },
+        {
+          "src": "/work/mayfair/pin",
+          "caption": "Lapel pin, application mockup",
+          "alt": "A blue and silver Mayfair Lumber lapel pin on a dark jacket."
+        }
+      ]
+    },
+    "line": "A wholesale lumber company in Alberta, Canada, more than four decades old. We rebuilt their mark, colour and type.",
+    "person": "Eric Dahl",
+    "colour": {
+      "src": "/work/mayfair/colour",
+      "caption": "Exact values for print and screen, written down once.",
+      "alt": "Mayfair's four colours: Prime Blue, White, Grey and Black, each with its hex value."
+    },
+    "type": {
+      "src": "/work/mayfair/type",
+      "caption": "Poppins for headings and large text. Inter for paragraphs and small text.",
+      "alt": "Mayfair's two typefaces: Poppins in blue for headings, Inter in black for paragraphs."
+    }
+  },
+  "gartnerabo": {
+    "_source": "MonoBook - Selected Work - Nov 2026.pdf, pages 21 to 33. Client permission confirmed by Mehedi, 11 Nov 2026.",
+    "status": "SOURCED",
+    "name": "Gärtnerabo",
+    "line": "A garden care subscription service. We built their identity new: logo, logotype, colour system, guideline and applications.",
+    "facts": [
+      {
+        "label": "Who",
+        "text": "A garden care subscription service for people who want a well-kept garden without the hassle."
+      },
+      {
+        "label": "The brief",
+        "text": "A brand that feels professional, caring and fresh."
+      },
+      {
+        "label": "What we did",
+        "text": "Logo, logotype, colour system, brand guideline and applications."
+      },
+      {
+        "label": "The mark",
+        "text": "A tree made from simple shapes. Straight lines for the land, a half circle for the changing seasons, a circle for the whole tree."
+      }
+    ],
+    "media": {
+      "mark": {
+        "src": "/work/gartnerabo/mark",
+        "caption": "The mark",
+        "alt": "The Gärtnerabo mark: a green tree built from straight bands, a half circle and a short trunk, on pale green."
+      },
+      "sketch": {
+        "src": "/work/gartnerabo/sketch",
+        "caption": "Sketching. The approved version is on the left.",
+        "alt": "Pages of pencil sketches and notes for the Gärtnerabo mark, with the approved sketch on the left."
+      },
+      "logotype": {
+        "src": "/work/gartnerabo/logotype",
+        "caption": "Logotype",
+        "alt": "The Gärtnerabo name set large in a serif and an italic, in grey on a dark background."
+      },
+      "guideline": {
+        "src": "/work/gartnerabo/guideline",
+        "caption": "Brand guideline",
+        "alt": "Twelve pages of the Gärtnerabo brand guideline: logo, minimum size, clear space, colour and typeface."
+      }
+    },
+    "galleries": {
+      "applications": {
+        "heading": "One brand, out in the world.",
+        "items": [
+          {
+            "src": "/work/gartnerabo/outdoor",
+            "caption": "Outdoor, application mockup",
+            "alt": "A Gärtnerabo billboard in green with a gardener trimming a hedge."
+          },
+          {
+            "src": "/work/gartnerabo/story",
+            "caption": "Brand story, application mockup",
+            "alt": "Three Gärtnerabo story cards in green with short lines about lawns, hedges and bloom."
+          },
+          {
+            "src": "/work/gartnerabo/social",
+            "caption": "Social and stationery, application mockup",
+            "alt": "A Gärtnerabo social profile with the green tree mark, next to green and white stationery."
+          }
+        ]
+      }
+    },
+    "_v2": "Mehedi approved adding Gärtnerabo back as case two, 15 Nov 2026 (client written permission confirmed 11 Nov). v2 Hard Line exception: permission plus Mehedi approve."
+  },
+  "social": [
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/89932245/"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/monobook.co/"
+    }
+  ],
+  "foundingDate": "2022",
+  "founder": "Mehedi Hasan",
+  "alternateName": "MonoBook Brand Architects"
+}

@@ -1,0 +1,247 @@
+{
+  "path": "/",
+  "title": "Brand Identity Design for UK Trade Businesses | MonoBook",
+  "description": "Logo, colour, typeface, image style and brand guidelines for UK trade and service businesses. In one working day, seven days or fourteen.",
+  "_descriptionSource": "live site meta description, verbatim",
+  "blocks": [
+    {
+      "type": "hero",
+      "status": "SOURCED",
+      "h1": [
+        "Your business works.",
+        "It just does not look like it does."
+      ],
+      "sub": [
+        "One identity for your vans, signs, quotes and website.",
+        "Five parts. Ready in 1, 7 or 14 days."
+      ],
+      "cta": true,
+      "under": "Replies within two hours, UK working hours.",
+      "visual": "surfaces",
+      "theme": "ink"
+    },
+    {
+      "type": "credstrip",
+      "status": "SOURCED",
+      "id": "cred",
+      "_source": "Mehedi, Website Update v2, 15 Nov 2026 5.1",
+      "lines": [
+        "MonoBook, founded in 2022. Led by Mehedi Hasan, who started this work in 2016.",
+        "Studio in Satkhira, Bangladesh. We work with you by email and video call."
+      ]
+    },
+    {
+      "type": "statement",
+      "status": "SOURCED",
+      "id": "problem",
+      "eyebrow": "The problem",
+      "lines": [
+        "A customer sees one logo on your [VEHICLE] and a different one on your quote.",
+        "They see two companies.",
+        "You know it is one. They do not."
+      ],
+      "visual": "mismatch"
+    },
+    {
+      "type": "parts",
+      "status": "SOURCED",
+      "id": "parts",
+      "eyebrow": "What you get",
+      "heading": "Five parts.",
+      "items": [
+        {
+          "name": "Logo",
+          "anchor": "logo",
+          "text": "A primary and a secondary mark, with rules for size and clear space."
+        },
+        {
+          "name": "Colour",
+          "anchor": "colour",
+          "text": "One palette, exact values for print, screen, vehicle wraps and signage."
+        },
+        {
+          "name": "Typeface",
+          "anchor": "typeface",
+          "text": "A licensed type system, so quotes and invoices match."
+        },
+        {
+          "name": "Image style",
+          "anchor": "image-style",
+          "text": "A standard for your job photos, built from your own work."
+        },
+        {
+          "name": "Guideline",
+          "anchor": "guideline",
+          "text": "One document your printer, sign maker and web developer can follow without calling you."
+        }
+      ],
+      "link": {
+        "label": "What you get",
+        "href": "/what-you-get/"
+      }
+    },
+    {
+      "type": "pathstrip",
+      "status": "SOURCED",
+      "id": "path",
+      "eyebrow": "How it works",
+      "_source": "Website Update v2, 15 Nov 2026 5.2",
+      "heading": "From first email to final file.",
+      "items": [
+        [
+          "Send.",
+          "Email your brief. Seven things, one email."
+        ],
+        [
+          "See.",
+          "We reply within two hours, UK working hours, with one page: three things we would fix first."
+        ],
+        [
+          "Decide.",
+          "You get a one-page proposal. The work is the same in every option. Only the pace changes."
+        ],
+        [
+          "Receive.",
+          "All five parts, at the pace you chose."
+        ]
+      ],
+      "link": {
+        "label": "See every step",
+        "href": "/process/"
+      }
+    },
+    {
+      "type": "pace",
+      "status": "SOURCED",
+      "id": "pace",
+      "eyebrow": "Pace",
+      "heading": "Same five parts. You choose the pace.",
+      "options": [
+        {
+          "days": "1 day",
+          "name": "Sprint",
+          "text": "The whole studio on your project for one working day. All five parts at the end of it."
+        },
+        {
+          "days": "7 days",
+          "name": "Standard",
+          "text": "Two review points, scheduled around you."
+        },
+        {
+          "days": "14 days",
+          "name": "Extended",
+          "text": "The same work at a slower pace."
+        }
+      ],
+      "line": "The work is the same in every option. Only the pace changes.",
+      "cta": true
+    },
+    {
+      "type": "checklist",
+      "status": "SOURCED",
+      "id": "brief",
+      "eyebrow": "Your brief",
+      "heading": "Seven things to send. That is all we need to start.",
+      "under": {
+        "status": "PENDING",
+        "text": "Send them in one email. Do not worry if something is missing. Tell us and we will work around it.",
+        "_note": "Follow v2 strictly (Mehedi, 15 Nov 2026)"
+      }
+    },
+    {
+      "type": "proof",
+      "status": "SOURCED",
+      "id": "proof",
+      "eyebrow": "Proof",
+      "requiresImages": true,
+      "heading": "Mayfair Lumber Sales Ltd, Alberta",
+      "line": "A wholesale lumber company, more than four decades old. We rebuilt their mark, colour and type.",
+      "link": {
+        "label": "See the work",
+        "href": "/work/"
+      },
+      "cta": true
+    },
+    {
+      "type": "sixq",
+      "status": "SOURCED",
+      "id": "check",
+      "eyebrow": "Self check",
+      "heading": "Six questions, two minutes.",
+      "intro": "Check your own business.",
+      "introApproval": {
+        "status": "PENDING",
+        "text": "If you pass all six, you do not need us.",
+        "_note": "Website Update v2, 15 Nov 2026: stays PENDING until Mehedi's final review."
+      },
+      "questions": [
+        "[VEHICLE], site board, quote sheet: same logo, same colours?",
+        "Is the logo on the [VEHICLE] readable from across the street?",
+        "Does the logo work in one colour on workwear?",
+        "Are your colour codes written down, or does each printer guess?",
+        "[LISTING_SITES]: same logo as your website?",
+        "Does the logo alone tell people what you do?"
+      ],
+      "under": "Failed two or more? Send us your brief."
+    },
+    {
+      "type": "fitblock",
+      "status": "SOURCED",
+      "id": "fit",
+      "eyebrow": "Fit",
+      "_source": "Website Update v2, 15 Nov 2026 5.3",
+      "heading": "Who this is for, and who it is not.",
+      "for": [
+        "Firms that already trade and want one identity across vehicles, signs, quotes and website."
+      ],
+      "not": [
+        "You want a website, advertising or social media posts. This package is five parts: logo, colour, typeface, image style and guideline. Anything beyond them is quoted separately.",
+        "You cannot approve work in writing as we go. We work in steps, and every approval is written."
+      ],
+      "line": "Not sure which side you are on? Tell us what you need and we will say honestly whether we can help.",
+      "cta": true
+    },
+    {
+      "type": "faqpick",
+      "status": "SOURCED",
+      "id": "questions",
+      "eyebrow": "Questions",
+      "heading": "Questions people ask first",
+      "ids": [
+        "price-how",
+        "fit-who",
+        "time-sprint",
+        "trust-where",
+        "trust-proof",
+        "trust-results"
+      ],
+      "link": {
+        "label": "All questions",
+        "href": "/questions/"
+      }
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "id": "founder",
+      "eyebrow": "Who you deal with",
+      "heading": "You deal with the founder.",
+      "paras": [
+        "Mehedi Hasan founded MonoBook in 2022 and started this work in 2016. He is your contact from the first email to the final file. The studio is in Satkhira, Bangladesh, and works with you by email and video call."
+      ],
+      "link": {
+        "label": "About Mehedi",
+        "href": "/about/"
+      }
+    },
+    {
+      "type": "finalcta",
+      "status": "SOURCED",
+      "heading": "Send your brief.",
+      "text": "You hear back within two hours, UK working hours.",
+      "theme": "ink"
+    }
+  ],
+  "_themes": "Black bands on Home only: hero, our own identity, final call. Everything else white. Red is a small signal only.",
+  "_removed": "Website Update v2, 15 Nov 2026 Section 5 order: removed 'Who it is for', 'Our own identity' and the Gärtnerabo teaser from Home."
+}

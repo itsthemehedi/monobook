@@ -1,0 +1,163 @@
+/* MonoBook. Tailwind does most of the styling inside the components (src/).
+   This file holds only what utilities cannot say well: fonts, base rules, a few shared
+   text styles, numbered-list counters, the label-column grid, the FAQ, and the soft motion. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:swap;src:url(/fonts/inter-latin.woff2) format("woff2")}
+@font-face{font-family:Manrope;font-style:normal;font-weight:200 800;font-display:swap;src:url(/fonts/manrope-latin.woff2) format("woff2")}
+@font-face{font-family:"Inter Fallback";src:local(Arial);ascent-override:90.44%;descent-override:22.52%;line-gap-override:0%;size-adjust:107.12%}
+@font-face{font-family:"Manrope Fallback";src:local(Arial);ascent-override:103.31%;descent-override:29.07%;line-gap-override:0%;size-adjust:103.19%}
+
+@layer base {
+  html { color-scheme: light; -webkit-text-size-adjust: 100%; scroll-padding-top: 5rem; }
+  body { @apply overflow-x-hidden bg-paper font-sans text-body text-ink antialiased; line-height: 1.55; }
+  ::selection { @apply bg-brand text-paper; }
+  a { text-decoration-line: underline; text-decoration-thickness: 1px; text-underline-offset: .22em; }
+  a:hover { text-decoration-color: theme('colors.brand'); }
+  :focus-visible { outline: 2px solid theme('colors.ink'); outline-offset: 3px; }
+  p { margin-bottom: 1rem; }
+  h1, h2, h3 { @apply mb-8 font-display font-medium; letter-spacing: -.035em; line-height: 1; text-wrap: balance; }
+  :target { scroll-margin-top: 5rem; }
+  @media (max-width: 999.98px) { body { padding-bottom: calc(4rem + env(safe-area-inset-bottom)); } }
+}
+
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-site px-4 md:px-8 xl:px-12; }
+
+  /* Sections: hairline on top. On wide screens a small label column on the left, content on the right.
+     Give a direct child the class "full" to span both columns (images, galleries). */
+  .section { @apply border-t border-line py-section; }
+  .section-flush { @apply border-t-0 py-8; }
+  .section-tight { @apply py-8; }
+  @media (min-width: 1000px) {
+    .section > .wrap { display: grid; grid-template-columns: minmax(0,3fr) minmax(0,9fr); column-gap: 2rem; }
+    .section > .wrap > * { grid-column: 2; min-width: 0; }
+    .section > .wrap > .eyebrow { grid-column: 1; grid-row: 1; margin-top: .6em; }
+    .section > .wrap > .full { grid-column: 1 / -1; }
+  }
+
+  /* Black band (Home hero and final call only). :where keeps these weak so utilities still win. */
+  .section-ink { @apply border-t-0 bg-ink text-paper; }
+  :where(.section-ink) .lead, :where(.section-ink) .eyebrow, :where(.section-ink) .more a { @apply text-paper; }
+  :where(.section-ink) .note, :where(.section-ink) figcaption { @apply text-paper-muted; }
+  :where(.section-ink) :focus-visible { outline-color: #fff; }
+
+  /* Shared text styles */
+  .display { @apply font-display text-display font-medium; line-height: .92; letter-spacing: -.045em; }
+  .h2 { @apply text-h2; }
+  .h3 { @apply mb-3 text-h3; letter-spacing: -.02em; line-height: 1.1; }
+  .lead { @apply max-w-[34ch] font-display text-lead font-medium; line-height: 1.2; letter-spacing: -.02em; }
+  .row-text { @apply font-display text-lead font-medium; line-height: 1.25; letter-spacing: -.02em; }
+  .note { @apply text-small text-muted; }
+  .label { @apply font-display text-small font-medium; }
+  .figcap { @apply mt-3 font-display text-small font-medium text-muted; }
+  .eyebrow { @apply mb-8 flex items-baseline gap-[.5em] font-display text-small font-medium text-ink; }
+  .eyebrow::before { content: ""; @apply h-1.5 w-1.5 flex-none rounded-full bg-brand; transform: translateY(-.15em); }
+  .actions { @apply mt-12; }
+  .more { @apply mt-8 font-display text-body font-medium; }
+  .prose-lead > p:first-child { @apply font-display text-lead font-medium; line-height: 1.25; letter-spacing: -.02em; }
+
+  /* Underline that wipes away on hover */
+  .ulink { text-decoration: none; background: linear-gradient(currentColor,currentColor) 0 100%/100% 1px no-repeat; padding-bottom: 2px; transition: background-size .45s theme('transitionTimingFunction.soft'); }
+  .ulink:hover { background-size: 0 1px; background-position: 100% 100%; }
+
+  /* Button: black and white only */
+  .btn { @apply inline-flex min-h-control items-center justify-center gap-[.6em] border border-ink bg-ink px-8 py-4 text-center font-display text-body font-medium text-paper no-underline; letter-spacing: -.01em; transition: background-color .3s, color .3s; }
+  .btn::after { content: "\2192"; font-weight: 400; transition: transform .35s theme('transitionTimingFunction.soft'); }
+  .btn:hover { @apply bg-paper text-ink; }
+  .btn:hover::after { transform: translateX(4px); }
+  .btn:disabled { @apply cursor-wait opacity-60; }
+  :where(.section-ink) .btn { @apply border-paper bg-paper text-ink; }
+  :where(.section-ink) .btn:hover { @apply bg-ink text-paper; }
+  @media (max-width: 767.98px) { .btn { @apply flex w-full; } }
+
+  /* Numbered lists: grey numerals, no colour */
+  .numlist { counter-reset: n; @apply max-w-[60rem] border-t border-ink; }
+  .numlist > li { counter-increment: n; @apply grid grid-cols-[3rem_1fr] gap-4 border-b border-line py-4 font-display text-lead font-medium; line-height: 1.25; letter-spacing: -.02em; }
+  .numlist > li::before { content: counter(n, decimal-leading-zero); @apply text-small text-muted; padding-top: .45em; letter-spacing: 0; font-variant-numeric: tabular-nums; }
+  :where(.section-ink) .numlist { border-top-color: #fff; }
+  :where(.section-ink) .numlist > li { @apply border-line-dark; }
+  :where(.section-ink) .numlist > li::before { @apply text-paper-muted; }
+  .pathlist { counter-reset: n; }
+  .pathlist > li { counter-increment: n; }
+  .pathlist > li::before { content: counter(n, decimal-leading-zero); @apply mb-3 block font-display text-small font-medium text-muted; font-variant-numeric: tabular-nums; }
+
+  /* FAQ: native details, plus turns into a cross */
+  .faq summary { @apply flex min-h-tap cursor-pointer list-none items-start justify-between gap-4 py-4 font-display text-lead font-medium; line-height: 1.2; letter-spacing: -.02em; transition: padding-left .4s theme('transitionTimingFunction.soft'); }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after { content: "+"; @apply flex-none font-normal leading-none; transition: transform .35s theme('transitionTimingFunction.soft'); }
+  .faq details[open] summary::after { transform: rotate(45deg); }
+  .faq .numlist > li { @apply text-body; }
+  @media (hover: hover) { .faq summary:hover { @apply pl-2; } }
+
+  /* Header links */
+  .header-link { @apply inline-flex min-h-tap items-center font-display text-small font-medium text-ink no-underline; }
+  .header-link:not(.header-link-cta) { background: linear-gradient(currentColor,currentColor) 0 calc(50% + .75em)/0 1px no-repeat; transition: background-size .4s theme('transitionTimingFunction.soft'); }
+  .header-link:not(.header-link-cta):hover, .header-link[aria-current] { background-size: 100% 1px; }
+  .header-link-cta { @apply bg-ink px-6 text-paper; transition: background-color .3s, color .3s, box-shadow .3s; }
+  .header-link-cta:hover { @apply bg-paper text-ink; box-shadow: inset 0 0 0 1px theme('colors.ink'); }
+  .nav-mobile summary::-webkit-details-marker { display: none; }
+
+  /* Form fields */
+  .field { @apply min-h-control w-full rounded-none border border-ink bg-paper px-4 py-3 font-sans text-body text-ink; }
+  .field:focus-visible { outline-offset: 0; }
+  textarea.field { @apply min-h-[12rem] resize-y; }
+
+  /* Line drawings (hero and problem). Brand red only on the "good" mark. */
+  .draw { width: 100%; height: auto; fill: none; stroke: theme('colors.ink'); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+  .draw .ground { stroke: #0b0b0b33; }
+  .draw .wheel { fill: theme('colors.off'); }
+  .draw .dot { fill: theme('colors.ink'); stroke: none; }
+  .draw .soft { fill: #e2e2e2; stroke: none; }
+  .draw .thick { stroke-width: 3; }
+  .draw .mk-bg { fill: theme('colors.brand'); stroke: none; }
+  .draw .mk-fg { fill: #fff; stroke: none; }
+  .draw .bad-a { fill: #9a9a9a; stroke: none; }
+  .draw .bad-a-in { fill: theme('colors.off'); stroke: none; }
+  .draw .bad-b { fill: none; stroke: theme('colors.ink'); stroke-width: 2.2; }
+
+  .skip-link { @apply absolute left-4 top-[-100px] z-20 bg-ink px-4 py-3 text-paper no-underline focus:top-3; }
+
+  /* Mobile sticky bar */
+  .mobile-cta { @apply fixed inset-x-0 bottom-0 z-[8] border-t border-line bg-paper px-4 pt-2 md:px-8; padding-bottom: calc(.5rem + env(safe-area-inset-bottom)); }
+  .mobile-cta-link { @apply flex min-h-12 items-center justify-center gap-[.6em] bg-ink font-display text-small font-medium text-paper no-underline; }
+  .mobile-cta-link::after { content: "\2192"; }
+}
+
+@media (forced-colors: active) { .btn, .header-link-cta, .mobile-cta-link { border: 1px solid ButtonText; } }
+@media print { .site-header, .mobile-cta, .skip-link { display: none !important; } }
+
+/* ===== Motion. Soft and short. Only when public/motion.js runs and the visitor allows motion. ===== */
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+.js-motion .hero-title span, .js-motion .hero .lead, .js-motion .hero .actions { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
+.js-motion .hero-title span + span { animation-delay: .12s; }
+.js-motion .hero .lead { animation-delay: .26s; }
+.js-motion .hero .actions { animation-delay: .38s; }
+
+.js-motion .rv { opacity: 0; transform: translateY(16px); transition: opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1); transition-delay: calc(var(--i, 0) * 70ms); }
+.js-motion .rv.is-in { opacity: 1; transform: none; }
+
+.js-motion .surfaces li .mk { transform-box: fill-box; transform-origin: center; transform: scale(.6); opacity: 0; transition: transform .6s cubic-bezier(.2,.7,.2,1), opacity .6s cubic-bezier(.2,.7,.2,1); transition-delay: calc(var(--i, 0) * 70ms + .35s); }
+.js-motion .surfaces li.is-in .mk { transform: none; opacity: 1; }
+
+.showcase img { transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
+.js-motion .showcase.rv img { transform: scale(1.04); }
+.js-motion .showcase.rv.is-in img { transform: none; }
+
+.site-header { transition: box-shadow .3s cubic-bezier(.2,.7,.2,1); }
+.site-header.is-scrolled { box-shadow: 0 1px 0 theme('colors.line'), 0 8px 24px -18px #0000002e; }
+.js-motion .mobile-cta { transform: translateY(110%); transition: transform .45s cubic-bezier(.2,.7,.2,1); }
+.js-motion .mobile-cta.is-shown { transform: none; }
+
+@supports (interpolate-size: allow-keywords) {
+  :root { interpolate-size: allow-keywords; }
+  .faq details::details-content { block-size: 0; overflow: hidden; transition: block-size .45s cubic-bezier(.2,.7,.2,1), content-visibility .45s allow-discrete; }
+  .faq details[open]::details-content { block-size: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .js-motion .rv { opacity: 1; transform: none; }
+}

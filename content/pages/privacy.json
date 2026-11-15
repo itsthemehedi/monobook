@@ -1,0 +1,64 @@
+{
+  "path": "/privacy/",
+  "title": "Privacy | MonoBook",
+  "description": "This site does not track you. Here is what happens to what you send us.",
+  "_source": "live monobook.co/privacy/, verbatim (11 Nov 2026). Do not add new cookie or tracking text. 15 Nov 2026: contact form added, so 'What this site collects' and a new 'When you use the form' section were updated (Mehedi's request). Review before launch.",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "Privacy",
+      "lead": "This site does not track you. Here is what happens to what you send us."
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "heading": "Who we are",
+      "paras": [
+        "MonoBook Brand Architects is run by Mehedi Hasan. For anything about your data, email {{EMAIL_LINK}}."
+      ]
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "heading": "What this site collects",
+      "paras": [
+        "Nothing, unless you send the contact form. There are no cookies, no analytics and no tracking. Fonts and images load from this site, not from other companies.",
+        "Like any website, the company that hosts it may keep short technical logs, such as an IP address and the page asked for, to keep the service running and secure."
+      ]
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "heading": "When you email us",
+      "paras": [
+        "We receive your email address and whatever you send: your brief, logo files and photos.",
+        "We use it to reply to you and, if you go ahead, to do the work. We keep it only as long as we need it for that, then delete it.",
+        "We do not sell it or pass it on. The only other company that holds it is our email provider, which stores our mail."
+      ]
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "heading": "When you use the form",
+      "paras": [
+        "The form on the contact page sends us your name, email address, business name and message.",
+        "It is not stored on this website. It is passed to Resend, an email delivery service, which delivers it to our inbox. From then on we treat it exactly like an email you sent us."
+      ]
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "heading": "Your rights",
+      "paras": [
+        "Under UK data protection law you can ask to see what we hold about you, have it corrected or deleted, or object to how we use it. Email us and we will do it.",
+        "If you are not happy with how we handle your data, you can complain to the Information Commissioner's Office at [ico.org.uk](https://ico.org.uk/)."
+      ]
+    },
+    {
+      "type": "backhome",
+      "status": "SOURCED",
+      "label": "Back to the home page"
+    }
+  ]
+}

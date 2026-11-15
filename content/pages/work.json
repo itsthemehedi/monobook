@@ -1,0 +1,151 @@
+{
+  "path": "/work/",
+  "title": "Work: Mayfair Lumber and Gärtnerabo | MonoBook",
+  "description": "Two identities. Mayfair Lumber Sales Ltd, a mark refined after four decades. Gärtnerabo, a garden care brand built new.",
+  "_h1Source": "case study PDF page 20, 'Two ways to rebrand'",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "Two ways to rebrand.",
+      "lead": "Know the mark? Fix what is broken. New to the market? Start from zero.",
+      "_h1Source": "case study PDF page 20"
+    },
+    {
+      "type": "casehead",
+      "status": "SOURCED",
+      "case": "mayfair",
+      "id": "mayfair",
+      "eyebrow": "Case one: refined"
+    },
+    {
+      "type": "facts",
+      "status": "SOURCED",
+      "rows": [
+        {
+          "label": "Who",
+          "text": "A wholesale lumber company in Alberta, Canada, more than four decades old."
+        },
+        {
+          "label": "What we did",
+          "text": "We rebuilt their mark, colour and type."
+        },
+        {
+          "label": "How it was run",
+          "text": "By email and video call, from Satkhira to Alberta."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "id": "gap",
+      "eyebrow": "The gap",
+      "heading": "Small things showed at every size.",
+      "_source": "case study PDF page 5 ('in 1976' left out for the number rule)",
+      "paras": [
+        "The original mark was made by hand. After more than four decades, corners did not match, the space on both sides was uneven, and the lines of text sat on mixed alignments.",
+        "None of it was loud. All of it made the brand look less certain than the company is."
+      ]
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "id": "brief",
+      "eyebrow": "The brief",
+      "heading": "Fix only what is broken.",
+      "_source": "case study PDF page 6",
+      "paras": [
+        "Changing a mark people already know is a risk. So the brief was narrow: fix only what is broken, and keep everything people recognise."
+      ]
+    },
+    {
+      "type": "mayfairimage",
+      "status": "SOURCED",
+      "which": "sketch"
+    },
+    {
+      "type": "beforeafter",
+      "status": "SOURCED",
+      "eyebrow": "Before and after"
+    },
+    {
+      "type": "changes",
+      "status": "SOURCED"
+    },
+    {
+      "type": "mayfairimage",
+      "status": "SOURCED",
+      "which": "approved"
+    },
+    {
+      "type": "mayfairimage",
+      "status": "SOURCED",
+      "which": "colour",
+      "eyebrow": "Colour",
+      "heading": "Four colours. Use them as written.",
+      "_source": "case study PDF page 12"
+    },
+    {
+      "type": "mayfairimage",
+      "status": "SOURCED",
+      "which": "type",
+      "eyebrow": "Typeface",
+      "heading": "Two typefaces, each with one job.",
+      "_source": "case study PDF page 13 (heading written to summarise the page)"
+    },
+    {
+      "type": "quote",
+      "status": "SOURCED",
+      "heading": "In their words"
+    },
+    {
+      "type": "casehead",
+      "status": "SOURCED",
+      "case": "gartnerabo",
+      "id": "gartnerabo",
+      "eyebrow": "Case two: built new",
+      "image": "mark"
+    },
+    {
+      "type": "casefacts",
+      "status": "SOURCED",
+      "case": "gartnerabo"
+    },
+    {
+      "type": "caseimage",
+      "status": "SOURCED",
+      "case": "gartnerabo",
+      "which": "sketch"
+    },
+    {
+      "type": "caseimage",
+      "status": "SOURCED",
+      "case": "gartnerabo",
+      "which": "logotype"
+    },
+    {
+      "type": "casegallery",
+      "status": "SOURCED",
+      "case": "gartnerabo",
+      "key": "applications"
+    },
+    {
+      "type": "caseimage",
+      "status": "SOURCED",
+      "case": "gartnerabo",
+      "which": "guideline"
+    },
+    {
+      "type": "finalcta",
+      "status": "SOURCED",
+      "heading": "Send your brief.",
+      "text": "You hear back within two hours, UK working hours.",
+      "link": {
+        "label": "Read the questions",
+        "href": "/questions/"
+      }
+    }
+  ],
+  "_v2": "Case study PDF v2, Mayfair pages 5 to 13. Mark, colour and type only (verified scope). Mehedi approved adding Gärtnerabo back as case two, 15 Nov 2026 (client written permission confirmed 11 Nov). v2 Hard Line exception: permission plus Mehedi approve."
+}

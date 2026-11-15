@@ -1,0 +1,56 @@
+{
+  "path": "/what-you-get/",
+  "title": "What You Get: Logo, Colour, Typeface, Image Style, Guideline | MonoBook",
+  "description": "The five parts of a MonoBook identity, what each one is and where it is used.",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "What you get",
+      "lead": "Five parts. Logo, colour, typeface, image style and one guideline."
+    },
+    {
+      "type": "partsdetail",
+      "status": "SOURCED",
+      "_whatItIsSource": "live site descriptions, verbatim; 'van' swapped for [VEHICLE]",
+      "receive": {
+        "status": "PENDING",
+        "_note": "scope-formats. Line hidden until SOURCED."
+      },
+      "items": [
+        {
+          "name": "Logo",
+          "anchor": "logo",
+          "what": "A primary and a secondary mark, with sizes and clear space rules. The same company shows up on a business card and on the side of a [VEHICLE]."
+        },
+        {
+          "name": "Colour",
+          "anchor": "colour",
+          "what": "One palette with exact values for print, screen, vehicle wrap and signage. Your sign maker and your web developer stop guessing."
+        },
+        {
+          "name": "Typeface",
+          "anchor": "typeface",
+          "what": "A licensed type system for headings, body and documents. Quotes and invoices start looking like they came from the same company."
+        },
+        {
+          "name": "Image style",
+          "anchor": "image-style",
+          "what": "A standard for job photos. Your own work becomes your proof."
+        },
+        {
+          "name": "Guideline",
+          "anchor": "guideline",
+          "what": "One document your printer, sign maker, web developer and team can work from without calling you first."
+        }
+      ],
+      "where": "[SURFACES]"
+    },
+    {
+      "type": "finalcta",
+      "status": "SOURCED",
+      "heading": "Not sure which parts you need?",
+      "text": "Tell us what you already have."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "path": "/process/",
+  "title": "How It Works: From Brief to Five Parts | MonoBook",
+  "description": "How a MonoBook project runs, from your first email to the five parts. One day, seven days or fourteen days.",
+  "_approval": "Step wording approved by Mehedi 11 Nov 2026. Day-by-day detail stays private; shared in the proposal.",
+  "blocks": [
+    {
+      "type": "pagehead",
+      "status": "SOURCED",
+      "h1": "How it works"
+    },
+    {
+      "type": "steps",
+      "status": "SOURCED",
+      "id": "steps",
+      "items": [
+        "You email your brief. Seven things, one email.",
+        "We reply within two hours, UK working hours.",
+        "We show you what we see. One page, three things we would fix first.",
+        "You get a one-page proposal with the options. The work is the same in each. Only the pace changes.",
+        "Terms and payment.",
+        "A 30 minute call to start from what you know about your customers.",
+        "We do the work at the pace you chose.",
+        "You receive all five parts."
+      ],
+      "_step5Pending": "Wording after 'Terms and payment.' is PENDING."
+    },
+    {
+      "type": "sprint",
+      "status": "SOURCED",
+      "id": "sprint",
+      "heading": "How the one-day Sprint runs",
+      "_source": "live site, verbatim",
+      "items": [
+        {
+          "when": "Before the day",
+          "text": "You send your current logo, a few photos of your van, signs and workwear, and answers to a short brief."
+        },
+        {
+          "when": "In the morning",
+          "text": "We confirm the brief by a short call or email."
+        },
+        {
+          "when": "During the day",
+          "text": "The whole studio works on your project."
+        },
+        {
+          "when": "By the end of the day",
+          "text": "You receive all five parts: logo files, colour palette with exact codes, typeface, image style and the guideline document."
+        }
+      ]
+    },
+    {
+      "type": "pacelist",
+      "status": "SOURCED",
+      "id": "standard",
+      "heading": "Standard and Extended",
+      "items": [
+        {
+          "when": "Standard, 7 days",
+          "text": "Two review points, scheduled around you."
+        },
+        {
+          "when": "Extended, 14 days",
+          "text": "The same work at a slower pace."
+        }
+      ],
+      "dayByDay": {
+        "status": "PENDING",
+        "_note": "Follow v2 strictly (Mehedi, 15 Nov 2026)"
+      }
+    },
+    {
+      "type": "text",
+      "status": "SOURCED",
+      "id": "wait",
+      "_source": "Website Update v2, 15 Nov 2026 6.2",
+      "heading": "While you wait.",
+      "paras": [
+        "Mehedi replies to every brief himself. Until then, you can see the Mayfair work and read the answers to the questions people ask first."
+      ],
+      "links": [
+        {
+          "label": "See the work",
+          "href": "/work/"
+        },
+        {
+          "label": "Read the questions",
+          "href": "/questions/"
+        }
+      ]
+    },
+    {
+      "type": "finalcta",
+      "status": "SOURCED",
+      "heading": "Send your brief.",
+      "text": "You hear back within two hours, UK working hours."
+    }
+  ]
+}
